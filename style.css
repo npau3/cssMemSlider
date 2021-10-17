@@ -38,6 +38,8 @@ body {
     display: flex;
     justify-content: start;
     font-size: 2rem;
+    transition: 1sec;
+    color: white;
 }
 .container_for_flex {
     display: flex;
