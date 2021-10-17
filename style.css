@@ -73,10 +73,21 @@ body {
     display: flex;
     justify-content: end;
 }
-.slide1 {background: url(img/1.jpg);}
-.slide2 {background: url(img/2.jpg);}
-.slide3 {background: url(img/3.jpg);}
-.slide4 {background: url(img/4.jpg);}
+.slide1 {
+    background: url(img/1.jpg);
+    background-size: 100%;
+}
+.slide2 {
+    background: url(img/2.jpg);
+    background-size: 100%;
+}
+.slide3 {
+    background: url(img/3.jpg);
+    background-size: 100%;
+}
+.slide4 {
+    background: url(img/4.jpg);
+    background-size: 100%;}
 .slides {
 	height: inherit;
 	opacity: 0;
